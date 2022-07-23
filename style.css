@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body{
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    pad: 0;
+}
+.header{
+    background-color: black;
+    border-bottom: 5px solid red;
+    color: white;
+    padding: 15px;
+    font-size: 2rem;
+}
+.main{
+    background-image:radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(./banner.jpg);  
+    background-size: cover;
+    height: 600px; 
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    margin: 0;
+    
+}
+.title span{
+    color: red;
+}
+.nav{
+    display: inline;
+    float:right;
+}
+.title{
+    display: inline;
+}
+.nav a{
+    border: 8px solid red;
+    background-color: red;
+    color:  white;
+    text-decoration: none;
+    margin: 4px;
+    font-size: 0.8rem;   
+    border-radius: 10px;
+}
+
